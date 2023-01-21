@@ -301,8 +301,8 @@ footer .icons i:hover{
   .mob-list_item{
     color: white;
   }
-  .opened{
-   
+  .mob-list a:hover{
+    color: #ff014f;
   }
   .close{
     display: none;
@@ -336,12 +336,12 @@ footer .icons i:hover{
         margin-right: 2.1rem;
     }
     .contact-section{
-        height: 100vh;
+        min-height: 100vh;
     }
     footer{
        display: flex;
        align-items: center;
-       height: 15vh;
+       min-height: 15vh;
        margin-left: 0.3rem;
     }
     .icons i{
